@@ -1,0 +1,95 @@
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-image: url("../../img/pic.jpg"),
+        linear-gradient(145deg, rgb(71, 71, 71) 0,rgb(27, 26, 48) 100%);
+    background-repeat: no-repeat;  
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+div.box {
+    width: auto;
+    height: auto;
+    background-image: url("../../img/pic.jpg"),
+        linear-gradient(145deg, rgb(168, 91, 100) 0%, rgb(40, 38, 82) 100%);
+    background-color: rgb(0, 0, 0, 0.3);
+    background-repeat: no-repeat;  
+    padding: 40px;
+    background-blend-mode: overlay;
+}
+
+div.logo {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding: 1.4em;
+}
+
+input, button {
+    width: 100%;
+    padding: 14px 0 14px 0;
+    border-radius: 5px;
+}
+
+input {
+    padding: 15px;
+    margin-bottom: 20px;
+    outline: none;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+button.btn-submit {
+    color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    margin: 50px 0 0 0;
+}
+
+div.input {
+    display: flex;
+    margin: 10px 0 10px 0;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+p.text {
+    opacity: 0.5;
+}
+
+div.regis {
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+a.regis {
+    text-decoration: none;
+    font-weight: bold;
+    padding-left: 10px;
+}
